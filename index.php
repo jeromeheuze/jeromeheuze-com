@@ -73,7 +73,6 @@
 
             </div>
         </div>
-        <img src="img/ipad.png" class="img-fluid" alt="">
     </div>
 </section>
 
@@ -83,13 +82,20 @@
 
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-            <div class="col-xl-8 col-lg-7">
-                <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+            <div class="col-xl-6 col-lg-6">
+                <img class="img-fluid mb-3 mb-lg-0" src="/img/bg-mashweb.jpg" alt="">
             </div>
-            <div class="col-xl-4 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
                 <div class="featured-text text-center text-lg-left">
-                    <h4>Shoreline</h4>
-                    <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                    <h4>Web Properties</h4>
+                    <p class="text-black-50 mb-0">I maintain and own several websites as follow:</p>
+                    <ul>
+                        <li><a href="https://usbminers.blogspot.com/" target="_blank">https://usbminers.blogspot.com/</a></li>
+                        <li><a href="http://www.emergingtechnologiesassociates.com/" target="_blank">http://www.emergingtechnologiesassociates.com/</a></li>
+                        <li><a href="http://www.kingportcorporation.com/" target="_blank">http://www.kingportcorporation.com/</a></li>
+                        <li><a href="http://www.draconianmarshmallows.com/" target="_blank">http://www.draconianmarshmallows.com/</a></li>
+                        <li><a href="http://hkasustainability.org/" target="_blank">http://hkasustainability.org/</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -103,8 +109,8 @@
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Misty</h4>
-                            <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                            <h4 class="text-white">My Indie Video Games</h4>
+                            <p class="mb-0 text-white-50">Games to be released soon.</p>
                             <hr class="d-none d-lg-block mb-0 ml-0">
                         </div>
                     </div>
@@ -121,8 +127,8 @@
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <h4 class="text-white">Mountains</h4>
-                            <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                            <h4 class="text-white">Photography</h4>
+                            <p class="mb-0 text-white-50">Content to be released soon.</p>
                             <hr class="d-none d-lg-block mb-0 mr-0">
                         </div>
                     </div>
