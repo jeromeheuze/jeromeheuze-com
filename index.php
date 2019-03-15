@@ -20,6 +20,39 @@
     <!-- Custom styles for this template -->
     <link href="/css/grayscale.min.css" rel="stylesheet">
 
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3533973-49"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-3533973-49');
+    </script>
+
+
+
 </head>
 
 <body id="page-top">
@@ -40,9 +73,6 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#signup"></a>
-                </li>
             </ul>
         </div>
     </div>
@@ -54,7 +84,7 @@
         <div class="mx-auto text-center">
             <h1 class="mx-auto my-0 text-uppercase">Jerome Heuze</h1>
             <h2 class="text-white-50 mx-auto mt-2 mb-5">Indie game developer, Front End Developer, Crypto mining and trading enthusiast!</h2>
-            <a href="#about" class="btn btn-primary js-scroll-trigger">Want to Know More?</a>
+            <a href="https://payhip.com/JeromesDigitalEmporium" class="btn btn-secondary">Digital Emporium</a> OR <a href="#about" class="btn btn-primary js-scroll-trigger">Want to Know More?</a>
         </div>
     </div>
 </header>
@@ -90,12 +120,30 @@
                     <h4>Web Properties</h4>
                     <p class="text-black-50 mb-0">I maintain and own several websites as follow:</p>
                     <ul>
-                        <li><a href="https://usbminers.blogspot.com/" target="_blank">https://usbminers.blogspot.com/</a></li>
+                        <li><a href="http://usbminers.com/" target="_blank">http://usbminers.com/</a></li>
                         <li><a href="http://www.emergingtechnologiesassociates.com/" target="_blank">http://www.emergingtechnologiesassociates.com/</a></li>
                         <li><a href="http://www.kingportcorporation.com/" target="_blank">http://www.kingportcorporation.com/</a></li>
                         <li><a href="http://www.draconianmarshmallows.com/" target="_blank">http://www.draconianmarshmallows.com/</a></li>
                         <li><a href="http://hkasustainability.org/" target="_blank">http://hkasustainability.org/</a></li>
                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 0 Row -->
+        <div class="row justify-content-center no-gutters">
+            <div class="col-lg-6">
+                <a href="https://payhip.com/JeromesDigitalEmporium" target="_blank"><img class="img-fluid" src="img/tm_banners.png" alt=""></a>
+            </div>
+            <div class="col-lg-6 order-lg-first">
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-right">
+                            <h4 class="text-white">Jerome's Digital Emporium</h4>
+                            <p class="mb-0 text-white-50">You can check my digital designs on Payhip.</p>
+                            <hr class="d-none d-lg-block mb-0 mr-0">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
