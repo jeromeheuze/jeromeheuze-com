@@ -120,11 +120,14 @@
                     <h4>Web Properties</h4>
                     <p class="text-black-50 mb-0">I maintain and own several websites as follow:</p>
                     <ul>
-                        <li><a href="http://usbminers.com/" target="_blank">http://usbminers.com/</a></li>
+                        <li><a href="https://academialore.com/" target="_blank">https://academialore.com/</a></li>
                         <li><a href="http://www.emergingtechnologiesassociates.com/" target="_blank">http://www.emergingtechnologiesassociates.com/</a></li>
                         <li><a href="http://www.kingportcorporation.com/" target="_blank">http://www.kingportcorporation.com/</a></li>
                         <li><a href="http://www.draconianmarshmallows.com/" target="_blank">http://www.draconianmarshmallows.com/</a></li>
                         <li><a href="http://hkasustainability.org/" target="_blank">http://hkasustainability.org/</a></li>
+                        <li><a href="http://cryptoafterfive.com/" target="_blank">http://cryptoafterfive.com/ (Under Development)</a></li>
+                        <li><a href="https://giveawaytribe.com/" target="_blank">https://giveawaytribe.com/ (Under Development)</a></li>
+                        <li><a href="https://gorvtoday.com/" target="_blank">https://gorvtoday.com/ (Under Development)</a></li>
                     </ul>
                 </div>
             </div>
@@ -169,14 +172,14 @@
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
             <div class="col-lg-6">
-                <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+                <a href="https://unsplash.com/@jeromeheuze" target="_blank"><img class="img-fluid" src="img/demo-image-02.jpg" alt=""></a>
             </div>
             <div class="col-lg-6 order-lg-first">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-right">
                             <h4 class="text-white">Photography</h4>
-                            <p class="mb-0 text-white-50">Content to be released soon.</p>
+                            <p class="mb-0 text-white-50">Download free, beautiful high-quality photos curated by Me.</p>
                             <hr class="d-none d-lg-block mb-0 mr-0">
                         </div>
                     </div>
@@ -230,16 +233,16 @@
         </div>
 
         <div class="social d-flex justify-content-center">
-            <a href="#" class="mx-2">
+            <a href="https://twitter.com/HeuzeJerome" class="mx-2">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
-            <a href="#" class="mx-2">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+            <a href="https://www.behance.net/jerome-heuze" class="mx-2">
+                <i class="fa fa-behance" aria-hidden="true"></i>
             </a>
-            <a href="#" class="mx-2">
+            <a href="https://github.com/jeromeheuze" class="mx-2">
                 <i class="fa fa-github" aria-hidden="true"></i>
             </a>
-            <a href="#" class="mx-2">
+            <a href="https://www.linkedin.com/in/jeromeheuze/" class="mx-2">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
         </div>
@@ -250,7 +253,7 @@
 <!-- Footer -->
 <footer class="bg-black small text-center text-white-50">
     <div class="container">
-        Copyright &copy; Jérôme Heuzé 2019
+        Copyright &copy;2019 - Jérôme Heuzé
     </div>
 </footer>
 
