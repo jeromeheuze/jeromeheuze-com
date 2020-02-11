@@ -77,14 +77,20 @@
         </div>
     </div>
 </nav>
-
+<?php
+$format = " format-jpg";
+if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
+    // webp is supported!
+    $format = " format-webp";
+}
+?>
 <!-- Header -->
-<header class="masthead">
+<header class="masthead<?=$format;?>">
     <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
             <h1 class="mx-auto my-0 text-uppercase">Jerome Heuze</h1>
-            <h2 class="text-white-50 mx-auto mt-2 mb-5">Indie game developer, Front End Developer, Crypto mining and trading enthusiast!</h2>
-            <a href="https://payhip.com/JeromesDigitalEmporium" class="btn btn-secondary">Digital Emporium</a> OR <a href="#about" class="btn btn-primary js-scroll-trigger">Want to Know More?</a>
+            <h2 class="text-white mx-auto mt-2 mb-5">Indie game developer, Blender3D enthusiast, Front End Developer, Outdoor man!</h2>
+            <a href="https://www.behance.net/jerome-heuze" class="btn btn-secondary">Portfolio</a> <a href="#about" class="btn btn-primary js-scroll-trigger">Want to Know More?</a>
         </div>
     </div>
 </header>
@@ -120,12 +126,11 @@
                     <h4>Web Properties</h4>
                     <p class="text-black-50 mb-0">I maintain and own several websites as follow:</p>
                     <ul>
-                        <li><a href="https://academialore.com/" target="_blank">https://academialore.com/</a></li>
+                        <li><a href="https://heuzeproductions.com/" target="_blank">https://heuzeproductions.com/</a></li>
                         <li><a href="http://www.emergingtechnologiesassociates.com/" target="_blank">http://www.emergingtechnologiesassociates.com/</a></li>
-                        <li><a href="http://www.kingportcorporation.com/" target="_blank">http://www.kingportcorporation.com/</a></li>
-                        <li><a href="http://www.draconianmarshmallows.com/" target="_blank">http://www.draconianmarshmallows.com/</a></li>
+                        <li><a href="https://www.draconianmarshmallows.com/" target="_blank">https://www.draconianmarshmallows.com/</a></li>
                         <li><a href="http://hkasustainability.org/" target="_blank">http://hkasustainability.org/</a></li>
-                        <li><a href="http://cryptoafterfive.com/" target="_blank">http://cryptoafterfive.com/ (Under Development)</a></li>
+                        <li><a href="https://cryptoafterfive.com/" target="_blank">https://cryptoafterfive.com/ (Under Development)</a></li>
                         <li><a href="https://giveawaytribe.com/" target="_blank">https://giveawaytribe.com/ (Under Development)</a></li>
                         <li><a href="https://gorvtoday.com/" target="_blank">https://gorvtoday.com/ (Under Development)</a></li>
                     </ul>

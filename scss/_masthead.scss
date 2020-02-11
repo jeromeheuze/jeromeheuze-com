@@ -4,13 +4,17 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../img/bg-masthead.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background: rgb(26,16,77);
+  background: linear-gradient(180deg, rgba(26,16,77,0) 0%, rgba(13,5,64,1) 100%);
   background-size: cover;
+  &.format-jpg {
+    background-image: url('../img/temple_v2_db.jpg');
+  }
+  &.format-webp {
+    background-image: url('../img/temple_v2_db.webp');
+  }
   h1 {
-    font-family: 'Varela Round';
+    font-family: 'Varela Round', serif;
     font-size: 2.5rem;
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
