@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Under Woods by Jerome Heuze</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <style>
+        body,td,th {
+            color: #FFF;
+            text-align:center;
+        }
+        body {
+            background-color: #000;
+            font-family:'Varela Round',sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div style="background-color: #111;color:#fff;text-align: center;line-height:2rem;"><a href="/underwoods-unity3d/index.html" style="line-height:2rem;color:#fff;font-family: 'Varela Round',sans-serif;">Back to Intro</a></div>
+
+<div id="unity-container" class="unity-desktop">
+    <canvas id="unity-canvas"></canvas>
+    <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+            <div id="unity-progress-bar-full"></div>
+        </div>
+    </div>
+    <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">Under Woods by Jerome Heuze</div>
+    </div>
+</div>
+<script>
+    var buildUrl = "Build";
+    var loaderUrl = buildUrl + "/WebGL-Robin.loader.js";
+    var config = {
+        dataUrl: buildUrl + "/WebGL-Robin.data",
+        frameworkUrl: buildUrl + "/WebGL-Robin.framework.js",
+        codeUrl: buildUrl + "/WebGL-Robin.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Heuze Productions",
+        productName: "SuperSpartanBros",
+        productVersion: "1.0",
+    };
+
+    var container = document.querySelector("#unity-container");
+    var canvas = document.querySelector("#unity-canvas");
+    var loadingBar = document.querySelector("#unity-loading-bar");
+    var progressBarFull = document.querySelector("#unity-progress-bar-full");
+    var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+
+    if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+        config.devicePixelRatio = 1;
+    } else {
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
+    }
+    loadingBar.style.display = "block";
+
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+            progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+            loadingBar.style.display = "none";
+            fullscreenButton.onclick = () => {
+                unityInstance.SetFullscreen(1);
+            };
+        }).catch((message) => {
+            alert(message);
+        });
+    };
+    document.body.appendChild(script);
+</script>
+
+</body>
+</html>

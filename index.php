@@ -38,7 +38,6 @@
     <meta name="msapplication-TileImage" content="mstile-144x144.png" />
     <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
     <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -101,12 +100,12 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <h2 class="text-white mb-4 text-center">About</h2>
+                <p class="text-white-50">Indie game developer, Blender3D, Tangent learning advocate, Web Developer, Front End Developer, Crypto mining and trading enthusiast!</p>
                 <p class="text-white-50">Jerome Heuze was born and raised in Paris, France. Having moved to the United States as an exchange student in his teens, he attended high school in Michigan then University in California.</p>
-                <p class="text-white-50">Following completion of his studies, Jerome went on to work for 10 years as a Software Engineer in several industries. At present he is doing work for financial business, social education company, global gps company, sustainability business, Crypto currency company and video games studio.</p>
-                <p class="text-white-50">An entrepreneur at heart, Jerome is always looking for ways to educate and entertain, but he is also a budding writer and his books about Nintendo games are available for people who want to know more about their hobby and enjoy collecting classic games.</p>
-                <p class="text-white-50">In his spare time Jerome enjoys wandering around museums, making and collecting games, building websites, electronics, crypto mining and teaching his daughters about the wonders of painting with Bob Ross, digital technology and science. He also has a keen interest in astronomy, night photography, game development, archery and science fiction entertainment.</p>
+                <p class="text-white-50">Following completion of his studies, Jerome went on to work for 10 years as a Software Engineer in several industries. At present he is doing work for sustainability businesses, Crypto currency companies and mobile games developers.</p>
+                <p class="text-white-50">An entrepreneur at heart, Jerome is always looking for ways to educate and entertain, but he is also a budding writer, creating video games and creating beautiful scenes in Blender.</p>
+                <p class="text-white-50">In his spare time Jerome enjoys wandering around museums, making and collecting games, building websites, electronics, crypto mining and teaching his daughters about creativity, digital technology and science. He also has a keen interest in astronomy, archery and science fiction entertainment.</p>
                 <p class="text-white-50">Jerome is looking forward to the day when space tourism becomes a reality and will allow people to travel throughout the solar system. Maybe one day he will take a vacation on Mars, or in Earth’s orbit.</p>
-
             </div>
         </div>
     </div>
@@ -127,12 +126,13 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
                     <p class="text-black-50 mb-0">I maintain and own several websites as follow:</p>
                     <ul>
                         <li><a href="https://heuzeproductions.com/" target="_blank">https://heuzeproductions.com/</a></li>
-                        <li><a href="http://www.emergingtechnologiesassociates.com/" target="_blank">http://www.emergingtechnologiesassociates.com/</a></li>
-                        <li><a href="https://www.draconianmarshmallows.com/" target="_blank">https://www.draconianmarshmallows.com/</a></li>
                         <li><a href="http://hkasustainability.org/" target="_blank">http://hkasustainability.org/</a></li>
-                        <li><a href="https://cryptoafterfive.com/" target="_blank">https://cryptoafterfive.com/ (Under Development)</a></li>
-                        <li><a href="https://giveawaytribe.com/" target="_blank">https://giveawaytribe.com/ (Under Development)</a></li>
-                        <li><a href="https://gorvtoday.com/" target="_blank">https://gorvtoday.com/ (Under Development)</a></li>
+                        <li><a href="https://entropiamarket.com/" target="_blank">https://entropiamarket.com/</a></li>
+                        <li><a href="https://entropiahub.com/" target="_blank">https://entropiahub.com/</a></li>
+                        <li><a href="https://cryptoafterfive.com/" target="_blank">https://cryptoafterfive.com/</a></li>
+                        <li><a href="https://academialore.com/" target="_blank">https://academialore.com/ (WIP)</a></li>
+                        <li><a href="https://superleadsgames.com/" target="_blank">https://superleadsgames.com/ (REDO)</a></li>
+                        <li><a href="https://spaceshipadventuregames.com/" target="_blank">https://spaceshipadventuregames.com/ (REDO)</a></li>
                     </ul>
                 </div>
             </div>
@@ -165,8 +165,15 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">My Indie Video Games</h4>
-                            <p class="mb-0 text-white-50">Games to be released soon.</p>
+                            <h4 class="text-white">Indie Video Games Portfolio</h4>
+                            <p class="mb-0 text-white-50">My collection of Unity3D projects:</p>
+                            <ul>
+                                <li><a href="/solar-systems-unity3d/">Solar System</a></li>
+                                <li><a href="/rolling-voxel-unity3d/">Rolling Voxel</a></li>
+                                <li><a href="/box-shooter-unity3d/">Box Shooter</a></li>
+                                <li><a href="/superspartanbros-unity3d/">2D Platformer: Super Spartan Bros.</a></li>
+                                <li><a href="/underwoods-unity3d/">2D Platformer: Under Woods</a></li>
+                            </ul>
                             <hr class="d-none d-lg-block mb-0 ml-0">
                         </div>
                     </div>
@@ -258,7 +265,7 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
 <!-- Footer -->
 <footer class="bg-black small text-center text-white-50">
     <div class="container">
-        Copyright &copy;2019 - Jérôme Heuzé
+        Copyright &copy;<?php echo date('Y'); ?> - Jérôme Heuzé
     </div>
 </footer>
 
