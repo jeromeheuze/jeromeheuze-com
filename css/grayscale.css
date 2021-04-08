@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.3 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -104,6 +104,14 @@
 
 .masthead.format-webp {
   background-image: url("../img/temple_v2_db.webp");
+}
+
+.masthead.bformat-jpg {
+  background-image: url("/img/forest_01.jpg");
+}
+
+.masthead.bformat-webp {
+  background-image: url("/img/forest_01.webp");
 }
 
 .masthead h1 {

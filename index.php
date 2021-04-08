@@ -89,7 +89,7 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
         <div class="mx-auto text-center">
             <h1 class="mx-auto my-0 text-uppercase">Jerome Heuze</h1>
             <h2 class="text-white mx-auto mt-2 mb-5">Indie game developer, Blender3D enthusiast, Front End Developer, Outdoor man!</h2>
-            <a href="https://www.behance.net/jerome-heuze" class="btn btn-secondary">Portfolio</a> <a href="#about" class="btn btn-primary js-scroll-trigger">Want to Know More?</a>
+            <a href="https://www.behance.net/jerome-heuze" class="btn btn-secondary">Portfolio</a> <a href="/blog/" class="btn btn-primary">Blog</a>
         </div>
     </div>
 </header>
@@ -129,10 +129,16 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
                         <li><a href="http://hkasustainability.org/" target="_blank">http://hkasustainability.org/</a></li>
                         <li><a href="https://entropiamarket.com/" target="_blank">https://entropiamarket.com/</a></li>
                         <li><a href="https://entropiahub.com/" target="_blank">https://entropiahub.com/</a></li>
-                        <li><a href="https://cryptoafterfive.com/" target="_blank">https://cryptoafterfive.com/</a></li>
                         <li><a href="https://academialore.com/" target="_blank">https://academialore.com/ (WIP)</a></li>
                         <li><a href="https://superleadsgames.com/" target="_blank">https://superleadsgames.com/ (REDO)</a></li>
                         <li><a href="https://spaceshipadventuregames.com/" target="_blank">https://spaceshipadventuregames.com/ (REDO)</a></li>
+                    </ul>
+                    <h4>Virtual Estates & Digital Investments</h4>
+                    <p class="text-black-50 mb-0">I own in-game estates as investment:</p>
+                    <ul>
+                        <li><a href="https://www.entropiauniverse.com" target="_blank">Entropia Universe</a> – the Sci-Fi MMORPG, Multi-World, Real Cash Economy Experience.</li>
+                        <li><a href="https://app.earth2.io" target="_blank">Earth 2</a> - 5% promo code - DNGFDKD2UX</li>
+                        <li><a href="https://www.inkgames.com/spectrum3900" target="_blank">INK Games</a> - Grab an INK Zip Code</li>
                     </ul>
                 </div>
             </div>
@@ -197,66 +203,6 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
                     </div>
                 </div>
             </div>
-        </div>
-
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section class="contact-section bg-black">
-    <div class="container">
-
-        <div class="row">
-
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fa fa-map text-primary mb-2" aria-hidden="true"></i>
-                        <h4 class="text-uppercase m-0">Address</h4>
-                        <hr class="my-4">
-                        <div class="small text-black-50">San Francisco, CA</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fa fa-envelope text-primary mb-2" aria-hidden="true"></i>
-                        <h4 class="text-uppercase m-0">Email</h4>
-                        <hr class="my-4">
-                        <div class="small text-black-50">
-                            <a href="mailto:jeromeheuze@gmail.com?subject=Inquiry">jeromeheuze@gmail.com</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fa fa-mobile text-primary mb-2" aria-hidden="true"></i>
-                        <h4 class="text-uppercase m-0">Phone</h4>
-                        <hr class="my-4">
-                        <div class="small text-black-50">+1 (650) 350-0107</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="social d-flex justify-content-center">
-            <a href="https://twitter.com/HeuzeJerome" class="mx-2">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.behance.net/jerome-heuze" class="mx-2">
-                <i class="fa fa-behance" aria-hidden="true"></i>
-            </a>
-            <a href="https://github.com/jeromeheuze" class="mx-2">
-                <i class="fa fa-github" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/jeromeheuze/" class="mx-2">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
         </div>
 
     </div>

@@ -13,6 +13,12 @@
   &.format-webp {
     background-image: url('../img/temple_v2_db.webp');
   }
+  &.bformat-jpg {
+    background-image: url('/img/forest_01.jpg');
+  }
+  &.bformat-webp {
+    background-image: url('/img/forest_01.webp');
+  }
   h1 {
     font-family: 'Varela Round', serif;
     font-size: 2.5rem;
