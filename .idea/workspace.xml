@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d205992-4030-42b3-b8a6-010756ef0480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/cpu-mining-challenge-raspberry-pi-zero.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/project.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/project.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/forest_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/forest_01.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/olivier-collet-JMwCe3w7qKk-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vishnu-mohanan-rZKdS0wI8Ks-unsplash.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grayscale.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grayscale.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grayscale.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_masthead.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +35,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -114,6 +103,8 @@
       <workItem from="1612327453836" duration="628000" />
       <workItem from="1615320062584" duration="46000" />
       <workItem from="1615320741702" duration="640000" />
+      <workItem from="1618541109209" duration="31000" />
+      <workItem from="1618800264161" duration="163000" />
     </task>
     <servers />
   </component>

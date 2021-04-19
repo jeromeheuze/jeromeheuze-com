@@ -126,7 +126,8 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
                     <p class="text-black-50 mb-0">I maintain and own several websites as follow:</p>
                     <ul>
                         <li><a href="https://heuzeproductions.com/" target="_blank">https://heuzeproductions.com/</a></li>
-                        <li><a href="http://hkasustainability.org/" target="_blank">http://hkasustainability.org/</a></li>
+                        <li><a href="https://www.hkasustainability.org/" target="_blank">https://www.hkasustainability.org/</a></li>
+                        <li><a href="https://thesustainabledentist.com/" target="_blank">https://thesustainabledentist.com/</a></li>
                         <li><a href="https://entropiamarket.com/" target="_blank">https://entropiamarket.com/</a></li>
                         <li><a href="https://entropiahub.com/" target="_blank">https://entropiahub.com/</a></li>
                         <li><a href="https://academialore.com/" target="_blank">https://academialore.com/ (WIP)</a></li>
