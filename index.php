@@ -89,7 +89,7 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
         <div class="mx-auto text-center">
             <h1 class="mx-auto my-0 text-uppercase">Jerome Heuze</h1>
             <h2 class="text-white mx-auto mt-2 mb-5">Indie game developer, Blender3D enthusiast, Front End Developer, Outdoor man!</h2>
-            <a href="https://www.behance.net/jerome-heuze" class="btn btn-secondary">Portfolio</a> <a href="/blog/" class="btn btn-primary">Blog</a>
+            <a href="https://www.behance.net/jerome-heuze" class="btn btn-secondary">Portfolio</a> <a href="https://www.linkedin.com/in/jeromeheuze/" rel="noreferrer" class="btn btn-primary">Resume</a>
         </div>
     </div>
 </header>
@@ -131,7 +131,7 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
                         <li><a href="https://entropiamarket.com/" target="_blank">https://entropiamarket.com/</a></li>
                         <li><a href="https://entropiahub.com/" target="_blank">https://entropiahub.com/</a></li>
                         <li><a href="https://academialore.com/" target="_blank">https://academialore.com/ (WIP)</a></li>
-                        <li><a href="https://superleadsgames.com/" target="_blank">https://superleadsgames.com/ (REDO)</a></li>
+                        <li><a href="https://kohibou.com/" target="_blank">https://kohibou.com/ (WIP)</a></li>
                         <li><a href="https://spaceshipadventuregames.com/" target="_blank">https://spaceshipadventuregames.com/ (REDO)</a></li>
                     </ul>
                     <h4>Virtual Estates & Digital Investments</h4>
