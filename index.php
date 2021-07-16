@@ -138,7 +138,7 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
                     <p class="text-black-50 mb-0">I own in-game estates as investment:</p>
                     <ul>
                         <li><a href="https://www.entropiauniverse.com" target="_blank">Entropia Universe</a> – the Sci-Fi MMORPG, Multi-World, Real Cash Economy Experience.</li>
-                        <li><a href="https://app.earth2.io" target="_blank">Earth 2</a> - 5% promo code - DNGFDKD2UX</li>
+                        <li><a href="https://earth2.io" target="_blank">Earth 2</a> - 5% promo code - DNGFDKD2UX</li>
                         <li><a href="https://www.inkgames.com/spectrum3900" target="_blank">INK Games</a> - Grab an INK Zip Code</li>
                     </ul>
                 </div>
