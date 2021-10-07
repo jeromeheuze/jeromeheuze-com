@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d205992-4030-42b3-b8a6-010756ef0480" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/solar-systems-unity3d/Build/Web.framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar-systems-unity3d/Build/Web.loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar-systems-unity3d/Build/web2.data" beforeDir="false" afterPath="$PROJECT_DIR$/solar-systems-unity3d/Build/Web.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar-systems-unity3d/Build/web2.framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar-systems-unity3d/Build/web2.loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar-systems-unity3d/Build/web2.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/solar-systems-unity3d/Build/Web.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar-systems-unity3d/TemplateData/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/solar-systems-unity3d/TemplateData/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar-systems-unity3d/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solar-systems-unity3d/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/solar-systems-unity3d" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -50,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Github\jeromeheuze-com\solar-systems-unity3d" />
       <recent name="C:\Users\jerom\Documents\GitHub\jeromeheuze-com\img" />
       <recent name="C:\Users\jerom\Documents\GitHub\jeromeheuze-com\underwoods-unity3d" />
       <recent name="C:\Users\jerom\Documents\GitHub\jeromeheuze-com\superspartanbros-unity3d" />
       <recent name="C:\Users\jerom\Documents\GitHub\jeromeheuze-com\img\projects" />
-      <recent name="C:\Users\jerom\Documents\GitHub\jeromeheuze-com\walk-in-the-park-unity3d" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -113,6 +122,11 @@
       <workItem from="1620951006314" duration="37000" />
       <workItem from="1622329807868" duration="928000" />
       <workItem from="1626479805757" duration="29000" />
+      <workItem from="1630213328603" duration="3856000" />
+      <workItem from="1631071425592" duration="1368000" />
+      <workItem from="1631167756471" duration="1300000" />
+      <workItem from="1631402442596" duration="1193000" />
+      <workItem from="1631633226480" duration="1259000" />
     </task>
     <servers />
   </component>

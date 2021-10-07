@@ -132,7 +132,6 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
                         <li><a href="https://entropiahub.com/" target="_blank">https://entropiahub.com/</a></li>
                         <li><a href="https://academialore.com/" target="_blank">https://academialore.com/ (WIP)</a></li>
                         <li><a href="https://kohibou.com/" target="_blank">https://kohibou.com/ (WIP)</a></li>
-                        <li><a href="https://spaceshipadventuregames.com/" target="_blank">https://spaceshipadventuregames.com/ (REDO)</a></li>
                     </ul>
                     <h4>Virtual Estates & Digital Investments</h4>
                     <p class="text-black-50 mb-0">I own in-game estates as investment:</p>
@@ -175,7 +174,7 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
                             <h4 class="text-white">Indie Video Games Portfolio</h4>
                             <p class="mb-0 text-white-50">My collection of Unity3D projects:</p>
                             <ul>
-                                <li><a href="/solar-systems-unity3d/">Solar System</a></li>
+                                <li><a href="/solar-systems-unity3d/">Solar System - v.2021</a></li>
                                 <li><a href="/rolling-voxel-unity3d/">Rolling Voxel</a></li>
                                 <li><a href="/box-shooter-unity3d/">Box Shooter</a></li>
                                 <li><a href="/superspartanbros-unity3d/">2D Platformer: Super Spartan Bros.</a></li>
