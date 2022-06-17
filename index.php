@@ -123,22 +123,19 @@ if( strpos( $_SERVER['HTTP_ACCEPT'], 'image/webp' ) !== false ) {
             <div class="col-xl-6 col-lg-6">
                 <div class="featured-text text-center text-lg-left">
                     <h4>Web Properties</h4>
-                    <p class="text-black-50 mb-0">I maintain and own several websites as follow:</p>
+                    <p class="text-black-50 mb-0">I maintain and own several websites as follows:</p>
                     <ul>
-                        <li><a href="https://heuzeproductions.com/" target="_blank">https://heuzeproductions.com/</a></li>
-                        <li><a href="https://www.hkasustainability.org/" target="_blank">https://www.hkasustainability.org/</a></li>
-                        <li><a href="https://thesustainabledentist.com/" target="_blank">https://thesustainabledentist.com/</a></li>
-                        <li><a href="https://entropiamarket.com/" target="_blank">https://entropiamarket.com/</a></li>
-                        <li><a href="https://entropiahub.com/" target="_blank">https://entropiahub.com/</a></li>
-                        <li><a href="https://academialore.com/" target="_blank">https://academialore.com/ (WIP)</a></li>
-                        <li><a href="https://kohibou.com/" target="_blank">https://kohibou.com/ (WIP)</a></li>
+                        <li><a href="https://heuzeproductions.com/" target="_blank">Heuze Productions</a> (Indie Game Studio)</li>
+                        <li><a href="https://e2production.com/" target="_blank">E2Production - Virtual businesses in Earth2.io</a></li>
+                        <li><a href="https://thesustainabledentist.com/" target="_blank">The Sustainable Dentist</a></li>
+                        <li><a href="https://entropiamarket.com/" target="_blank">Entropia Market</a> (Entropia related)</li>
+                        <li><a href="https://entropiahub.com/" target="_blank">Entropia Hub</a> (Entropia related)</li>
                     </ul>
                     <h4>Virtual Estates & Digital Investments</h4>
                     <p class="text-black-50 mb-0">I own in-game estates as investment:</p>
                     <ul>
                         <li><a href="https://www.entropiauniverse.com" target="_blank">Entropia Universe</a> – the Sci-Fi MMORPG, Multi-World, Real Cash Economy Experience.</li>
-                        <li><a href="https://earth2.io" target="_blank">Earth 2</a> - 5% promo code - DNGFDKD2UX</li>
-                        <li><a href="https://www.inkgames.com/spectrum3900" target="_blank">INK Games</a> - Grab an INK Zip Code</li>
+                        <li><a href="https://app.earth2.io/#profile/85c750d8-93f6-4e71-bc53-1b7a509d7a75" target="_blank">Earth 2</a> - 7.5% promo code - e2prod</li>
                     </ul>
                 </div>
             </div>
